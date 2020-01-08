@@ -1,0 +1,4 @@
+services:
+  event_details.custom_services:
+    class: Drupal\event_details\Services\CustomService
+    arguments: []

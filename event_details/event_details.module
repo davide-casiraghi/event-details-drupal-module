@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function event_details_theme()
+{
+    return array(
+      'block__event_details_custom' => array(
+          'variables' => array('description' => NULL),
+        ),
+    );
+}

@@ -1,0 +1,4 @@
+name: Event details
+type: module
+core: '8.x'
+description: 'It shows: how many days are left until the event starts,  ff the event is going to happen on the current day display, if the event is already passed'
