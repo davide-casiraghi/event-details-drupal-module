@@ -47,7 +47,6 @@ class EventDetailsBlock extends BlockBase {
     
     if ($todayDateDiff > 0){
       $description = $todayDateDiff." days left until event starts.";
-      
     }
     elseif($todayDateDiff < 0){
       $description = "This event already passed.";
@@ -55,8 +54,6 @@ class EventDetailsBlock extends BlockBase {
     else{
       $description = "This event is happening today.";
     }
-    
-    //var_dump($description);
       
     $build = [];
     $build['#theme'] = 'block__event_details_custom';
